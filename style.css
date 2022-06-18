@@ -1,0 +1,52 @@
+.container{
+max-width: 18vw;
+    margin:28vh auto;
+}
+
+#display{
+    height: 8vh;
+    background-color:black ;
+    padding: 1.3vh 1vh;
+    color: white;
+}
+#display1{
+    height: 4vh;
+    background-color:hsla(0, 0%, 1%, 0.888) ;
+    padding: 1.3vh 1vh;
+    color: white;  
+}
+
+.btns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    border-top:1px solid grey;
+    border-bottom:1px solid grey ;
+}
+
+.btn{
+    border-radius: 0%;
+    border:0.4px solid grey;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    background-color: rgb(41, 40, 40);
+    color: white;
+}
+#equal{
+    background-color: rgb(109, 109, 207);
+}
+
+@media screen and (max-width: 530px) {
+    
+.btns{
+display: grid;
+grid-template-columns:25% 25% 25% 25%;
+}
+#display{
+    height: 2vh;
+}
+
+}
